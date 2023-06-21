@@ -5,3 +5,14 @@
 .register-form {
     margin: 8vh 0;
 }
+
+@media screen and (orientation: portrait) {
+    .register-form, .alert {
+        margin: 0;
+    }
+
+    .register-form {
+        margin: 0;
+    }
+    
+}
