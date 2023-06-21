@@ -1,0 +1,31 @@
+header {
+
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top h1 {
+    text-align: center;
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1vw;
+}
+
+.nav-img {
+    width: 3vw;
+    height: 3vw;
+    color: #fca311;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.nav-img:hover {
+    transform: scale(1.2);
+}

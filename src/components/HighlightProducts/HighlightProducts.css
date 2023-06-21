@@ -1,0 +1,10 @@
+.highlights {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+}
+
+.highlights .products {
+    display: flex;
+    flex-wrap: wrap;
+}

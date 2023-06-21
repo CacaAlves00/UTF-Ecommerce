@@ -1,0 +1,20 @@
+#shopping section {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 3vh;
+}
+
+#shopping section h2 {
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shopping section button {
+    height: 8vh;
+    margin-top: 4vh;
+}
