@@ -18,3 +18,14 @@
     height: 8vh;
     margin-top: 4vh;
 }
+
+@media screen and (orientation: portrait) {
+    #shopping section {
+        flex-direction: column;
+    }    
+
+    #shopping section h2 {
+        width: auto;
+        height: 7vh;
+    }
+}

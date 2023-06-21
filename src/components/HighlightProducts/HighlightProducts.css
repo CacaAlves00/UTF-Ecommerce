@@ -8,3 +8,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media screen and (orientation: portrait) {
+    .highlights .products {
+        row-gap: 8vh;
+    }
+}

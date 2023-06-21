@@ -3,3 +3,9 @@
     height: 80vh;
     display: block;
 }
+
+@media screen and (orientation: portrait) {
+    .carousel-img {
+        height: 60vh;
+    }
+}

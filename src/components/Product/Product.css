@@ -18,3 +18,19 @@
     align-items: center;
     column-gap: 2vw;
 }
+
+@media screen and (orientation: portrait) {
+    .product {
+        height: auto;
+        width: 100%;
+    }
+
+    .product img {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .product .buttons {
+        column-gap: 6vw;
+    }
+}

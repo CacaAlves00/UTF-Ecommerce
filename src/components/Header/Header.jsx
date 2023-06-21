@@ -6,7 +6,6 @@ import { BiCart, BiHome, BiShoppingBag, BiUser } from 'react-icons/bi'
 function Header() {
   return (
     <header>
-      <div className='header-top'>
         <h1>UTF Ecommerce ;)</h1>
 
         <nav>
@@ -20,7 +19,6 @@ function Header() {
             <BiCart className='nav-img' />
           </Link>
         </nav>
-      </div>
     </header>
   )
 }

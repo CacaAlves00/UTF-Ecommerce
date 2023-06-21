@@ -1,13 +1,9 @@
 header {
-
-}
-
-.header-top {
     display: flex;
     justify-content: space-between;
 }
 
-.header-top h1 {
+header h1 {
     text-align: center;
     flex: 1;
 }
@@ -28,4 +24,29 @@ nav {
 
 .nav-img:hover {
     transform: scale(1.2);
+}
+
+@media screen and (orientation: portrait) {
+    nav {
+        column-gap: 4vw;
+    }
+    
+    .nav-img {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        row-gap: 4vh;
+    }
+
+    h1 {
+        order: 2;
+        width: 100%;
+        border-top: 1px solid black;
+        padding-top: 3vh;
+    }
 }
